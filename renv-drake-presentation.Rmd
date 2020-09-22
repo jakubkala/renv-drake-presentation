@@ -31,16 +31,19 @@ slides > slide {
 
 </style>
 
-## renv
+## Project environments with renv
 
 
 <div style="float: left; display: flex; width: 50%;">
 
 <center>
-<img src="./renv-logo.svg" alt="renv package logo" width="450px">
+
+<img src="./renv-logo.svg" alt="renv package logo" width="400px">
+
+<!-- [renv](https://rstudio.github.io/renv/) -->
+
 </center>
 
-https://rstudio.github.io/renv/
 
 </div>
 
@@ -92,7 +95,7 @@ https://rstudio.github.io/renv/
 <img src="drake-logo.png" alt="renv package logo" width="400px">
 </center>
 
-https://docs.ropensci.org/drake/
+<!-- https://docs.ropensci.org/drake/ -->
 
 </div>
 
@@ -101,7 +104,7 @@ https://docs.ropensci.org/drake/
 ### drake keypoints: 
 
 <ul style="margin: 35px;">  
-  <li  style="margin: 25px;">analyzes workflow</li>
+  <li style="margin: 25px;">analyzes workflow</li>
   <li style="margin: 25px;">skips steps with up-to-date results</li>
   <li style="margin: 25px;">allows distributed computing</li>
 </uo>
@@ -109,10 +112,13 @@ https://docs.ropensci.org/drake/
 
 </div>
 
-## drake plan
 
-## dependency graph
+## Drake plan
 
-## drake and renv together
+<center>
+<img src="dependency-graph.png" alt="renv package logo" width="700px">
+</center>
+
+## Summary
 
 ## Thank you!
