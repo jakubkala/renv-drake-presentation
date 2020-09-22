@@ -1,0 +1,118 @@
+---
+title: "renv and drake"
+subtitle: "reproducible data science projects in R"
+author: "Jakub Kała"
+date: "`r format(Sys.time(), '%d/%m/%Y')`"
+output: 
+  ioslides_presentation:
+    widescreen: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<style>
+slides > slide {
+  font-family: 'Montserrat';
+  
+  font-size: 10%;
+}
+
+<style>
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+
+## renv
+
+
+<div style="float: left; display: flex; width: 50%;">
+
+<center>
+<img src="./renv-logo.svg" alt="renv package logo" width="450px">
+</center>
+
+https://rstudio.github.io/renv/
+
+</div>
+
+<div style="float: right; width: 45%;">
+
+### renv makes your R project: 
+
+<ul style="margin: 35px;">  
+  <li  style="margin: 45px;">isolated</li>
+  <li style="margin: 45px;">portable</li>
+  <li style="margin: 45px;">reproducible</li>
+</uo>
+
+
+</div>
+
+## renv in a nutshell
+
+
+<div style="float: left; display: block; width: 50%;">
+
+### Simple workflow
+
+<ul>  
+  <li> call `renv::init()` to initialize tracking</li>
+  <li>`renv::snapshot()` saves the state of the project library to a lockfile</li>
+  <li>call `renv::restore()` whenever you would like to revert the changes you have made</li>
+</uo>
+
+</div>
+
+<div style="float: right; width: 45%;">
+
+### renv features: 
+
+<ul>  
+  <li>`renv` installs packages from a variety of sources (including CRAN, Bioconductor etc.)</li>
+  <li>supports authentication</li>
+  <li>shims allows to take advantage of package cache</li>
+</uo>
+
+
+
+## drake
+
+<div style="float: left; display: flex; width: 50%;">
+
+<center>
+<img src="drake-logo.png" alt="renv package logo" width="400px">
+</center>
+
+https://docs.ropensci.org/drake/
+
+</div>
+
+<div style="float: right; width: 45%;">
+
+### drake keypoints: 
+
+<ul style="margin: 35px;">  
+  <li  style="margin: 25px;">analyzes workflow</li>
+  <li style="margin: 25px;">skips steps with up-to-date results</li>
+  <li style="margin: 25px;">allows distributed computing</li>
+</uo>
+
+
+</div>
+
+## drake plan
+
+## dependency graph
+
+## drake and renv together
+
+## Thank you!
