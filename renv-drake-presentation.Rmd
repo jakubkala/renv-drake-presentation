@@ -65,6 +65,20 @@ slides > slide {
 
 <div style="float: left; display: block; width: 50%;">
 
+### renv features: 
+
+<ul>  
+  <li>`renv` installs packages from a variety of sources</li>
+  <li>supports authentication</li>
+  <li>shims allows to take advantage of package cache</li>
+</uo>
+
+</div>
+
+<div style="float: right; width: 45%;">
+
+
+
 ### Simple workflow
 
 <ul>  
@@ -74,16 +88,6 @@ slides > slide {
 </uo>
 
 </div>
-
-<div style="float: right; width: 45%;">
-
-### renv features: 
-
-<ul>  
-  <li>`renv` installs packages from a variety of sources (including CRAN, Bioconductor etc.)</li>
-  <li>supports authentication</li>
-  <li>shims allows to take advantage of package cache</li>
-</uo>
 
 
 
