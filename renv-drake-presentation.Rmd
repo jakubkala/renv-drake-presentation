@@ -8,10 +8,6 @@ output:
     widescreen: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
 <style>
@@ -96,7 +92,7 @@ slides > slide {
 <div style="float: left; display: flex; width: 50%;">
 
 <center>
-<img src="drake-logo.png" alt="renv package logo" width="400px">
+<img src="drake-logo.png" alt="drake package logo" width="400px">
 </center>
 
 <!-- https://docs.ropensci.org/drake/ -->
@@ -119,10 +115,43 @@ slides > slide {
 
 ## Drake plan
 
+```{r eval = FALSE}
+plan <- drake_plan(
+  # all the functions you want to call
+)
+vis_drake_graph()
+```
+
 <center>
-<img src="dependency-graph.png" alt="renv package logo" width="700px">
+<img src="drakeplan_01.png" alt="drake plan raw" width="550px">
+</center>
+
+## Drake plan
+
+```{r eval = FALSE}
+make(plan)
+vis_drake_graph()
+```
+
+<center>
+<img src="drakeplan_02.png" alt="drake plan done" width="550px">
+</center>
+
+## Drake plan
+
+<center>
+<img src="drakeplan_03.png" alt="drake plan with changes" width="650px">
 </center>
 
 ## Summary
 
+<center>
+<img src="renv_status.png" alt="renv status" width="650px">
+<img src="drake-status.png" alt="drake status" width="650px">
+</center>
+
+
+
 ## Thank you!
+
+<miejsce na zdjecie + acknowledgments>
