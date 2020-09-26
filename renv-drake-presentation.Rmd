@@ -150,8 +150,18 @@ vis_drake_graph()
 <img src="drake-status.png" alt="drake status" width="650px">
 </center>
 
+## Learning materials
+
+<ul style="margin: 35px;">  
+  <li style="margin: 25px;">[renv vignette](https://rstudio.github.io/renv/articles/renv.html)</li>
+  <li style="margin: 25px;">[The drake R Package User Manual](https://books.ropensci.org/drake/)</li>
+  <li style="margin: 25px;">[Will Landau's learndrake github repository](https://github.com/wlandau/learndrake)</li>
+</uo>
+
 
 
 ## Thank you!
 
-<miejsce na zdjecie + acknowledgments>
+<center>
+<img src="zdjecie_grupowe2.jpg" alt="biogenies" width="650px">
+</center>
