@@ -2,7 +2,7 @@
 title: "renv and drake"
 subtitle: "reproducible data science projects in R"
 author: "Jakub Kała"
-date: "`r format(Sys.time(), '%d/%m/%Y')`"
+date: "27/09/2020"
 output: 
   ioslides_presentation:
     widescreen: true
@@ -34,7 +34,7 @@ slides > slide {
 
 <center>
 
-<img src="./renv-logo.svg" alt="renv package logo" width="400px">
+<img src="./files/renv-logo.svg" alt="renv package logo" width="400px">
 
 <!-- [renv](https://rstudio.github.io/renv/) -->
 
@@ -92,7 +92,7 @@ slides > slide {
 <div style="float: left; display: flex; width: 50%;">
 
 <center>
-<img src="drake-logo.png" alt="drake package logo" width="400px">
+<img src="./files/drake-logo.png" alt="drake package logo" width="400px">
 </center>
 
 <!-- https://docs.ropensci.org/drake/ -->
@@ -123,7 +123,7 @@ vis_drake_graph()
 ```
 
 <center>
-<img src="drakeplan_01.png" alt="drake plan raw" width="550px">
+<img src="./files/drakeplan_01.png" alt="drake plan raw" width="550px">
 </center>
 
 ## Drake plan
@@ -134,20 +134,20 @@ vis_drake_graph()
 ```
 
 <center>
-<img src="drakeplan_02.png" alt="drake plan done" width="550px">
+<img src="./files/drakeplan_02.png" alt="drake plan done" width="550px">
 </center>
 
 ## Drake plan
 
 <center>
-<img src="drakeplan_03.png" alt="drake plan with changes" width="650px">
+<img src="./files/drakeplan_03.png" alt="drake plan with changes" width="650px">
 </center>
 
 ## Summary
 
 <center>
-<img src="renv_status.png" alt="renv status" width="650px">
-<img src="drake-status.png" alt="drake status" width="650px">
+<img src="./files/renv_status.png" alt="renv status" width="650px">
+<img src="./files/drake-status.png" alt="drake status" width="650px">
 </center>
 
 ## Learning materials
@@ -163,5 +163,5 @@ vis_drake_graph()
 ## Thank you!
 
 <center>
-<img src="zdjecie_grupowe2.jpg" alt="biogenies" width="650px">
+<img src="./files/zdjecie_grupowe2.jpg" alt="biogenies" width="650px">
 </center>
